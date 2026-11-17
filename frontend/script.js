@@ -54,8 +54,8 @@ async function sendMessage() {
 
   try {
     // 3. Send request to your Node.js Backend
-    // NOTE: When you deploy, replace 'http://localhost:5000' with your live URL
-    const response = await fetch("http://localhost:5000/api/chat", {
+    const apiUrl = (window.PORTFOLIO_API_URL || "http://localhost:5000").replace(/\/$/, "");
+    const response = await fetch(`${apiUrl}/api/chat`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

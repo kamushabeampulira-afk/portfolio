@@ -3,12 +3,22 @@ const cors = require("cors");
 const { ChatOpenAI } = require("@langchain/openai");
 const { PineconeStore } = require("@langchain/pinecone");
 const { Pinecone } = require("@pinecone-database/pinecone");
-const LocalEmbeddings = require("./LocalEmbeddings");
+const LocalEmbeddings = require("./localEmbeddings");
 require("dotenv").config();
+
+const missingEnvVars = ["PINECONE_API_KEY", "OPENROUTER_API_KEY"].filter(
+  (key) => !process.env[key],
+);
+if (missingEnvVars.length > 0) {
+  console.error(`Missing required environment variables: ${missingEnvVars.join(", ")}`);
+  process.exit(1);
+}
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+
+app.get("/api/health", (_req, res) => res.json({ status: "ok" }));
 
 // Setup Vector Database
 const pinecone = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
@@ -22,7 +32,7 @@ const model = new ChatOpenAI({
   configuration: {
     baseURL: "https://openrouter.ai/api/v1",
     defaultHeaders: {
-      "HTTP-Referer": "http://localhost:5000",
+      "HTTP-Referer": process.env.FRONTEND_URL || "http://localhost:5000",
       "X-Title": "Kamushabe Portfolio",
     },
     apiKey: process.env.OPENROUTER_API_KEY,

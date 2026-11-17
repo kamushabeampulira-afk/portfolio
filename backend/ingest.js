@@ -3,7 +3,7 @@ const { TextLoader } = require("langchain/document_loaders/fs/text");
 const { RecursiveCharacterTextSplitter } = require("langchain/text_splitter");
 const { PineconeStore } = require("@langchain/pinecone");
 const { Pinecone } = require("@pinecone-database/pinecone");
-const LocalEmbeddings = require("./LocalEmbeddings");
+const LocalEmbeddings = require("./localEmbeddings");
 require("dotenv").config();
 
 const INDEX_NAME = "portfolio-index";

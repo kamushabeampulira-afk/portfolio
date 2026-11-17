@@ -1,0 +1,30 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+# Deploy via Dashboard > New > Blueprint and select this repository.
+
+services:
+  # RAG chatbot API
+  - type: web
+    name: portfolio-api
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      # Secrets are entered in the Render Dashboard when the Blueprint is created.
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: FRONTEND_URL
+        value: https://portfolio-frontend.onrender.com
+
+  # Portfolio website (plain HTML/CSS/JS — no build step needed)
+  - type: web
+    name: portfolio-frontend
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: ./frontend
