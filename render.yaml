@@ -20,11 +20,11 @@ services:
       - key: OPENROUTER_API_KEY
         sync: false
       - key: FRONTEND_URL
-        value: https://portfolio-frontend-9y4j.onrender.com
+        value: https://kamushabe-portfolio.onrender.com
 
   # Portfolio website (plain HTML/CSS/JS — no build step needed)
   - type: web
-    name: portfolio-frontend
+    name: kamushabe-portfolio
     runtime: static
     buildCommand: "true"
     staticPublishPath: ./frontend
