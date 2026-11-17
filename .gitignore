@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Local logs
+npm-debug.log*
+
+# Personal resume is not needed by the site and should not be published
+/frontend/assets/Kamushabe_Ampulira_CV.pdf

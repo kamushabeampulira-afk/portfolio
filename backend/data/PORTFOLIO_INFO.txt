@@ -1,0 +1,52 @@
+________________________________________
+KAMUSHABE AMPULIRA
+Junior Software Engineer | Full-Stack Developer | AI Enthusiast
+Kampala, Uganda | [Your Email] | [Your LinkedIn URL] | github.com/kamushabeampulira-afk
+PROFESSIONAL SUMMARY
+Junior software engineer and aspiring full-stack developer with a strong interest in building practical software solutions and exploring artificial intelligence. Experienced in developing applications using JavaScript, Node.js, Express.js, MongoDB, and Python. Passionate about continuous learning, practical experimentation, and writing software that addresses real-world problems. Currently advancing software engineering and AI knowledge through structured professional training while building demonstrative projects.
+TECHNICAL SKILLS
+•	Programming Languages: JavaScript, Python, HTML5, CSS3
+•	Backend Development: Node.js, Express.js, REST API Development
+•	Databases: MongoDB, Mongoose, CRUD Operations
+•	Artificial Intelligence: LLMs, Prompt Engineering, LangChain, RAG, Google Gemini, OpenRouter, Streamlit
+•	Development Tools: Git, GitHub, VS Code, Postman
+•	Concepts: Object-Oriented Programming, API Integration, Authentication & Authorization, Role-Based Access Control
+EDUCATION & TRAINING
+Turing College | July 2026 – March 2027 (Currently Enrolled)
+Programme: Software Engineering and Artificial Intelligence
+Focus areas: Python, LLMs, Prompt Engineering, LangChain, RAG, Vector Databases, AI Application Development.
+Refactory Academy | March 2026 – June 2026
+Certificate in Software Engineering – JavaScript
+Focus areas: JavaScript, Node.js, Express.js, MongoDB, Full-Stack Development, REST APIs.
+St Mary's Girls' Vocational School, Mbarara | *2019*
+Uganda Certificate of Education (UCE)
+FEATURED PROJECTS
+Nyondo Stock Management System | Full-Stack Web Application
+Technologies: JavaScript, Node.js, Express.js, MongoDB, Mongoose, Pug, Passport.js, PDFKit
+•	Designed and developed a full-stack inventory and business management application for hardware businesses.
+•	Implemented inventory management, sales tracking, customer credits, supplier management, and low-stock alerts.
+•	Built role-based access control (Administrator, Manager, Sales Attendant) and generated PDF reports.
+AI-Powered Report Generation and Emailing | AI Application / Automation
+Technologies: Python, OpenRouter, AI APIs, Gmail SMTP, Pytest
+•	Developed an AI application that generates informative reports using external weather and news sources.
+•	Integrated AI models to process information and automated delivery via email.
+•	Achieved 33 passing tests during development using Pytest.
+AI Learning Companion | Artificial Intelligence / Educational Application
+Technologies: Python, Google Gemini, Google GenAI SDK, Pytest
+•	Built an AI-powered learning application to support students through interactive experiences.
+•	Utilized Google's Gemini API to generate educational content, quizzes, and practice sessions.
+•	Implemented learning statistics and results tracking to make learning personalized.
+AI Interview Coach | AI-Powered Application
+Technologies: Python, Streamlit, LLMs, OpenRouter, Prompt Engineering
+•	Created an interactive interview practice application to help users prepare for technical interviews.
+•	Integrated AI-generated interview assistance with configurable models and adjustable reasoning effort.
+•	Implemented input validation, safety checks, and an interactive Streamlit interface.
+Cold Storage Monitor | Embedded Systems / IoT
+Technologies: Arduino Uno, C/C++, DHT11, LCD Display, Relay Module, Buzzer, Ball Tilt Switch
+•	Developed a temperature and door-monitoring system for cold storage environments.
+•	Programmed real-time temperature monitoring with threshold alerts and automatic fan simulation via relay.
+•	Implemented door-open alerts (after 10 seconds) and real-time Serial Monitor updates.
+PROFESSIONAL STRENGTHS
+Problem-solving and analytical thinking, effective communication, teamwork and collaboration, adaptability, continuous learning, attention to detail, and creativity.
+CAREER OBJECTIVES
+Seeking opportunities to grow as a software engineer, develop practical full-stack applications, work with experienced developers, and contribute to meaningful software projects, particularly in AI application development
