@@ -4,7 +4,7 @@ A modern, dark-themed developer portfolio featuring a RAG (Retrieval-Augmented G
 
 ## 🚀 Live Demo
 - **Frontend:** [https://portfolio-frontend.onrender.com](https://portfolio-frontend.onrender.com)
-- **Backend API:** [https://portfolio-api.onrender.com](https://portfolio-api.onrender.com)
+- **Backend API:** [https://portfolio-sti8.onrender.com](https://portfolio-sti8.onrender.com)
 
 ## 📸 Screenshots
 *(Add a screenshot of your website and chatbot here to make your README stand out)*

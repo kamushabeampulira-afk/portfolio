@@ -4,7 +4,7 @@
 services:
   # RAG chatbot API
   - type: web
-    name: portfolio-api
+    name: portfolio
     runtime: node
     plan: free
     rootDir: backend
