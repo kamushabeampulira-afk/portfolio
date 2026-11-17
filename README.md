@@ -3,7 +3,7 @@
 A modern, dark-themed developer portfolio featuring a RAG (Retrieval-Augmented Generation) AI chatbot that can answer questions about my skills, experience, and projects in real-time.
 
 ## 🚀 Live Demo
-- **Frontend:** [https://portfolio-frontend.onrender.com](https://portfolio-frontend.onrender.com)
+- **Frontend:** [https://portfolio-frontend-9y4j.onrender.com](https://portfolio-frontend-9y4j.onrender.com)
 - **Backend API:** [https://portfolio-sti8.onrender.com](https://portfolio-sti8.onrender.com)
 
 ## 📸 Screenshots
