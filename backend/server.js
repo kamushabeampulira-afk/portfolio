@@ -50,7 +50,7 @@ app.post("/api/chat", async (req, res) => {
     );
 
     // 1. Retrieve relevant context from your resume
-    const relevantDocs = await vectorStore.similaritySearch(question, 3);
+    const relevantDocs = await vectorStore.similaritySearch(question, 5);
     const context = relevantDocs.map((doc) => doc.pageContent).join("\n\n");
 
     // 2. Generate response
